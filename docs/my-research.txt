@@ -1,0 +1,13 @@
+I was trying to figure it out that How clause, openai work at behind. Does they use the deep-research agent pipeline or simple tool and they. Here is what i cameup with:
+By default they have:
+- web-search tool which used for daily searching and tasks
+- deep-research agent used when selected by user or the query itself seems too complex that can't handle by generic web search.
+
+But the generic web-search is not the simple search and write the answer. What i observe during a research task assign to claude to understand how it works: Here is how it work:
+- Take the query
+- Decompose it (to assume what needs to search or gather) - defining target not queries to run.
+- run a general query to get the idea about the task.
+- check the result of the search and craft another
+- run the next query and repeat the process until target get complete.
+In generic search every thing get back to main agnet (claude). No synthesizer, no critquer nothing at all. Just main agnet and tool. Main agent perfrom all the critique, syntesizing, citation etc.
+How evaluating search results? 

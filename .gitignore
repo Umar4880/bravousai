@@ -1,0 +1,60 @@
+# Environment & Secrets
+.env
+**/.env
+.env.*
+**/.env.*
+!.env.example
+!**/.env.example
+!frontend/.env.local.example
+
+# Python & Virtual Environments
+.venv/
+**/.venv/
+env/
+venv/
+ENV/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Next.js & Frontend Build Outputs
+.next/
+**/.next/
+out/
+build/
+dist/
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# TypeScript build info
+*.tsbuildinfo
+**/*.tsbuildinfo
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Coverage & Testing
+.coverage
+htmlcov/
+.debug/
+
+# Logs
+logs/
+*.log
+**/*.log
+
+# Optional editor config
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
